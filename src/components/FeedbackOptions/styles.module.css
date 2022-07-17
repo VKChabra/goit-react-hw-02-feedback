@@ -1,9 +1,13 @@
 .feedbackOptions button {
   border: 1px solid gray;
-  box-shadow: 2px 2px green;
+  box-shadow: 2px 2px 9px 1px rgba(2, 175, 28, 0.43);
   margin-right: 10px;
 }
 
 .feedbackOptions button:last-child {
   margin-right: 0;
+}
+
+.feedbackOptions button:hover {
+  cursor: pointer;
 }

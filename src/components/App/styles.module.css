@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(227, 227, 227, 0.842);
+}
+
 .wrapper {
   margin-left: 40px;
 }
