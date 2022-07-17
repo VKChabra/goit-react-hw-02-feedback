@@ -1,0 +1,9 @@
+.feedbackOptions button {
+  border: 1px solid gray;
+  box-shadow: 2px 2px green;
+  margin-right: 10px;
+}
+
+.feedbackOptions button:last-child {
+  margin-right: 0;
+}
