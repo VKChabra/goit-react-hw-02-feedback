@@ -8,7 +8,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         <button
           key={index}
           type="button"
-          className={option}
+          name={option}
           onClick={onLeaveFeedback}
         >
           {option.charAt(0).toUpperCase() + option.slice(1)}
@@ -20,6 +20,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
 
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
 
 export default FeedbackOptions;
